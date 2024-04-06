@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/cccicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/cccicon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CumminsCampusConnect10"
+        tools:targetApi="31">
+        <activity
+            android:name=".plan"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name=".calend"
+            android:exported="false" />
+        <activity
+            android:name=".subjects_new"
+            android:exported="false" />
+        <activity
+            android:name=".fysubjects"
+            android:exported="false" />
+        <activity
+            android:name=".subjects"
+            android:exported="false" />
+        <activity
+            android:name=".faculty"
+            android:exported="false" />
+        <activity
+            android:name=".cgpa"
+            android:exported="false" />
+        <activity
+            android:name=".sgpa"
+            android:exported="false" />
+        <activity
+            android:name=".createLetterPage"
+            android:exported="false" />
+        <activity
+            android:name=".compensation"
+            android:exported="false" />
+        <activity
+            android:name=".essentials"
+            android:exported="false" />
+        <activity
+            android:name=".clubs2"
+            android:exported="false" />
+        <activity
+            android:name=".clubs"
+            android:exported="false" />
+        <activity
+            android:name=".searchRes"
+            android:exported="false" />
+        <activity
+            android:name=".festDetails"
+            android:label="Festival Details" />
+        <activity
+            android:name=".festsHome"
+            android:exported="false" />
+        <activity
+            android:name=".groundFloor"
+            android:exported="false" />
+        <activity
+            android:name=".thirdFloor"
+            android:exported="false" />
+        <activity
+            android:name=".secondFloor"
+            android:exported="false" />
+        <activity
+            android:name=".firstFloor"
+            android:exported="false" />
+        <activity
+            android:name=".fifthFloor"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".interactSearch"
+            android:exported="false" />
+        <activity
+            android:name=".navSearch"
+            android:exported="false" />
+        <activity
+            android:name=".navMap"
+            android:exported="false" />
+        <activity
+            android:name=".navHome"
+            android:exported="false" />
+        <activity
+            android:name=".college"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
